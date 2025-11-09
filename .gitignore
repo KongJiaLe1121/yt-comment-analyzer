@@ -1,16 +1,7 @@
-# python
-.venv/
-__pycache__/
-*.pyc
-
-# data & models
-/ml/data/*
-!/ml/data/.gitkeep
-/ml/models/*
-!/ml/models/.gitkeep
-
-# notebooks checkpoints
-**/.ipynb_checkpoints/
-
-# env
+# Secrets & local dev
 .env
+.streamlit/secrets.toml
+
+# Checkpoints and caches
+**/__pycache__/
+**/.ipynb_checkpoints/

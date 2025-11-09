@@ -1,0 +1,18 @@
+# TubePulse — Streamlit Configuration
+
+[theme]
+# ---- Light theme (default) ----
+primaryColor = "rgba(14, 165, 166, 1)"
+backgroundColor = "#ffffffff"
+secondaryBackgroundColor = "#d9ffffff"
+textColor = "#0B2533"
+font = "sans serif"
+
+[client]
+toolbarMode = "auto"
+showErrorDetails = true
+
+[runner]
+magicEnabled = true
+fastReruns = true
+enforceSerializableSessionState = true
