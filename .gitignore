@@ -1,6 +1,5 @@
-# Secrets & local dev
-.env
-.streamlit/secrets.toml
+# Local dev
+.venv
 
 # Checkpoints and caches
 **/__pycache__/
